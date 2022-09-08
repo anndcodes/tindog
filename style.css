@@ -109,8 +109,8 @@ p {
 }
 
 .feature-box {
-  padding-inline: 30px;
-  margin: 90px 0 40px;
+  padding-inline: 20px;
+  margin: 60px 0 30px;
 }
 
 
@@ -179,12 +179,26 @@ p {
 
   @media (max-width: 1028px) {
   
-    #title {
+    #title, #title .container-fluid {
       text-align: center;
     }
   
+     .big-heading {
+      line-height: 1.2;
+      font-size: 3rem;
+    }
+
     .title-image {
       position: static;
       transform: rotate(0);
+    }
+
+     .testimonial-txt, .section-heading {
+      line-height: 1.1; 
+      font-size: 2.5rem;
+    }
+    
+    .price-txt {
+      font-size: 2rem;
     }
   }
